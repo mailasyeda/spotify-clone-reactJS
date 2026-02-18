@@ -5,138 +5,138 @@ const songs = [
   {
     id: 1,
     title: "No one noticed",
-    artist: " song byEd Sheeran",
+    artist: "song by The Maria",
     img: "src/images/1.jpg",
     src: "Audio/1.mp3",
     category: "Popular songs",
   },
   {
     id: 2,
-    title: "Shivers",
-    artist: "Ed Sheeran",
-    img: "src/images/2.png",
+    title: "The Night We Met",
+    artist: "song by The Lord Huron",
+    img: "src/images/2.jpg",
     src: "Audio/2.mp3",
-    category: "popular",
+    category: "Popular songs",
   },
   {
     id: 3,
-    title: "Runaway",
-    artist: "Aurora",
-    img: "src/images/3.png",
-    src: "Audio/3.flac",
+    title: "Sailor",
+    artist: "song by The Gigi Perez",
+    img: "src/images/3.jpg",
+    src: "Audio/3.mp3",
     category: "Popular songs",
   },
   {
     id: 4,
-    title: "Daylight",
-    artist: "David Kushner",
-    img: "src/images/4.png",
+    title: "Heat Waves",
+    artist: "song by The Glass Animals",
+    img: "src/images/4.jpg",
     src: "Audio/4.mp3",
     category: "Popular songs",
   },
   {
     id: 5,
-    title: "Die With A Smile",
-    artist: "Bruno Mars, Lady Gaga",
-    img: "src/images/5.png",
+    title: "Dandelions",
+    artist: "song by The Ruth B",
+    img: "src/images/5.jpg",
     src: "Audio/5.mp3",
     category: "Popular songs",
   },
   {
     id: 6,
-    title: "Mystical Magical",
-    artist: "Benson Boone",
-    img: "src/images/6.png",
+    title: "Lovely",
+    artist: "song by The BIllie Eilliesh",
+    img: "src/images/6.jpg",
     src: "Audio/6.mp3",
-    category: "Popular songs",
+    category: "Recomended songs",
   },
   {
     id: 7,
-    title: "A Thousand Years",
-    artist: "Christina Perri",
-    img: "src/Images/7.png",
-    src: "Audio/7.flac",
-    category: "popular",
+    title: "Star boy",
+    artist: "song by The weekend",
+    img: "src/Images/7.jpg",
+    src: "Audio/7.mp3",
+    category: "Recomended songs",
   },
   {
     id: 8,
-    title: "I Don't Care",
-    artist: "Ed Sheeran & Justin Bieber",
-    img: "src/Images/8.png",
-    src: "Audio/8.flac",
-    category: "popular",
+    title: "Night Changes",
+    artist: "song by The one direction",
+    img: "src/Images/8.jpg",
+    src: "Audio/8.mp3",
+    category: "Recomended songs",
   },
   {
     id: 9,
-    title: "Beautiful Things",
-    artist: "Benson Boone",
-    img: "src/Images/9.png",
-    src: "Audio/9.flac",
-    category: "popular",
+    title: "Another Love",
+    artist: "song by The Tom Odell",
+    img: "src/Images/9.jpg",
+    src: "Audio/9.mp3",
+    category: "Recomended songs",
   },
   {
     id: 10,
-    title: "The Rest",
-    artist: "Dean Lewis, Sasha Alex Sloan",
-    img: "src/Images/10.png",
-    src: "Audio/10.flac",
-    category: "recommended",
+    title: "Open Arms",
+    artist: "song by The SZA,Travis Scoutt",
+    img: "src/Images/10.jpg",
+    src: "Audio/10.mp3",
+    category: "Recomended songs",
   },
   {
     id: 11,
-    title: "More Than You Know",
-    artist: "Axwell / Ingrosso",
-    img: "src/Images/11.png",
-    src: "Audio/11.flac",
-    category: "recommended",
+    title: "Perfect",
+    artist: "ong by The ED Sheeran",
+    img: "src/Images/11.jpg",
+    src: "Audio/11.mp3",
+    category: "Recomended songs",
   },
   {
     id: 12,
-    title: "All That We Could Have Been",
-    artist: "Alex Sampson",
-    img: "src/Images/12.png",
-    src: "Audio/12.flac",
-    category: "recommended",
+    title: "Shape of you",
+    artist: "song by The ED Sheeran",
+    img: "src/Images/12.jpg",
+    src: "Audio/12.mp3",
+    category: "Recomended songs",
   },
   {
     id: 13,
-    title: "Hurts So Good",
-    artist: "Astrid S",
-    img: "src/Images/13.png",
-    src: "Audio/13.flac",
-    category: "recommended",
+    title: "not like us",
+    artist: "song by The Kendrick Lamar",
+    img: "src/Images/13.jpg",
+    src: "Audio/13.mp3",
+    category: "Recently played",
   },
   {
     id: 14,
-    title: "On My Way",
+    title: "savage",
     artist: "Alan Walker",
-    img: "src/Images/14.png",
-    src: "Audio/14.flac",
-    category: "recommended",
+    img: "src/Images/14.jpg",
+    src: "Audio/14.mp3",
+    category: "Recently played",
   },
   {
     id: 15,
-    title: "I Do",
-    artist: "Astrid S",
-    img: "src/Images/15.png",
-    src: "Audio/15.flac",
-    category: "recommended",
+    title: "High on you",
+    artist: "song by The Jind universe",
+    img: "src/Images/15.jpg",
+    src: "Audio/15.mp3",
+    category: "Recently played",
   },
   {
     id: 16,
-    title: "Control",
-    artist: "Alan Walker",
-    img: "src/Images/16.png",
-    src: "Audio/16.flac",
-    category: "recommended",
+    title: "Birds of a feather",
+    artist: "song by The Billie Eilliesh",
+    img: "src/Images/16.jpg",
+    src: "Audio/16.mp3",
+    category: "Recently played",
   },
   {
     id: 17,
-    title: "Ordinary",
-    artist: "Alex Warren",
-    img: "src/Images/17.png",
-    src: "Audio/17.flac",
-    category: "recommended",
+    title: "KK",
+    artist: "song by The Pritam",
+    img: "src/Images/17.jpg",
+    src: "Audio/17.mp3",
+    category: "Recently played",
   },
   ];
 
@@ -310,61 +310,117 @@ function App() {
                 ))}
             </div>
           </div>
-          </div>
 
             <div className="music-section">
                 <h2>Recomended songs</h2>
                 <div className="songs">
-                    <div className="music-card">
-                        <img src="images/7.jpg"/>
-                        <div className="music-play-btn"><i id="7" className="playMusic fa-solid fa-circle-play"></i></div>
-                        <div className="img-title">Star Boy</div>
-                        <div className="img-description">Song by the Weekend</div>
+                     {songs
+                .filter((s) => s.category === "Recomended songs")
+                .map((song) => (
+                  <div key={song.id} className="music-card">
+                    <img src={song.img} alt="" />
+                    <div className="music-play-btn">
+                      <i
+                        onClick={() => playSong(song.id)}
+                        className={`playMusic fa-solid ${
+                          isPlaying && currentSong === song.id
+                            ? "fa-circle-pause"
+                            : "fa-circle-play"
+                        }`}
+                      />
                     </div>
-                    </div>
-                </div>
+                    <div className="img-title">{song.title}</div>
+                    <div className="img-description">{song.artist}</div>
+                  </div>
+                ))}
             </div>
+          </div>
 
             <div className="music-section">
                 <h2>Recently played</h2>
                 <div className="songs">
-                    <div className="music-card">
-                        <img src="images/13.jpg"/>
-                        <div className="music-play-btn"><i id="13" className="playMusic fa-solid fa-circle-play"></i></div>
-                        <div className="img-title">aint' like us</div>
-                        <div className="img-description">Song by The Kendrick Lamar</div>
-                </div>
+                   {songs
+                .filter((s) => s.category === "Recently played")
+                .map((song) => (
+                  <div key={song.id} className="music-card">
+                    <img src={song.img} alt="" />
+                    <div className="music-play-btn">
+                      <i
+                        onClick={() => playSong(song.id)}
+                        className={`playMusic fa-solid ${
+                          isPlaying && currentSong === song.id
+                            ? "fa-circle-pause"
+                            : "fa-circle-play"
+                        }`}
+                      />
+                    </div>
+                    <div className="img-title">{song.title}</div>
+                    <div className="img-description">{song.artist}</div>
+                  </div>
+                ))}
             </div>
+          </div>
         </div>
-    </div>
+      </div>
 
-
-
-    <div className="player-bar">
+      <div className="player-bar">
         <div className="now-bar">
-            <img src="Images/1.jpg" alt=""/>
-            <div>
-                <div className="img-title-info">Title 1</div>
-                <div className="img-des-info">this is description for title 1 song</div>
-            </div>
+          <img src={current.img} alt="cover" />
+          <div>
+            <div className="img-title-info">{current.title}</div>
+            <div className="img-des-info">{current.artist}</div>
+          </div>
         </div>
-        <div className="music-controller">
-            <div className="player">
-                <div><i id="shuffle" className="player-btns fa-solid fa-shuffle"></i></div>
-                <div><i id="backward" className="player-btns fa-solid fa-backward-step"></i></div>
-                <div><i id="play" className="player-btns fa-solid fa-circle-play"></i></div>
-                <div><i id="forward" className="player-btns fa-solid fa-forward-step"></i></div>
-                <div><i id="repeat" className="player-btns fa-solid fa-repeat"></i></div>
-            </div>
 
-            <div>
-                <input type="range" id="progressBar" value="0"/>
-            </div>
+        <div className="music-controller">
+          <div className="player">
+            <i
+              id="shuffle"
+              onClick={toggleShuffle}
+              className={`player-btns fa-solid fa-shuffle ${
+                songOnShuffle ? "active" : ""
+              }`}
+            />
+            <i
+              id="backward"
+              onClick={playPrevSong}
+              className="player-btns fa-solid fa-backward-step"
+            />
+            <i
+              id="play"
+              onClick={playPause}
+              className={`player-btns fa-solid ${
+                isPlaying ? "fa-circle-pause" : "fa-circle-play"
+              }`}
+            />
+            <i
+              id="forward"
+              onClick={playNextSong}
+              className="player-btns fa-solid fa-forward-step"
+            />
+            <i
+              id="repeat"
+              onClick={toggleRepeat}
+              className={`player-btns fa-solid fa-repeat ${
+                songOnRepeat ? "active" : ""
+              }`}
+            />
+          </div>
+
+          <input
+            type="range"
+            id="progressBar"
+            value={progress}
+            onChange={onProgressChange}
+            style={{
+              background: `linear-gradient(to right, #177200ff ${progress}% , #333 ${progress}%)`,
+            }}
+          />
         </div>
-        <div></div>
     </div>
-    </>
-  )
+    </div>
+</>
+  );
 }
 
-export default App
+export default App;
