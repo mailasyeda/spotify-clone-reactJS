@@ -4,51 +4,51 @@ import "./index.css";
 const songs = [
   {
     id: 1,
-    title: "Perfect",
-    artist: "Ed Sheeran",
-    img: "src/Images/1.png",
-    src: "Audio/1.flac",
-    category: "popular",
+    title: "No one noticed",
+    artist: " song byEd Sheeran",
+    img: "src/images/1.jpg",
+    src: "Audio/1.mp3",
+    category: "Popular songs",
   },
   {
     id: 2,
     title: "Shivers",
     artist: "Ed Sheeran",
-    img: "src/Images/2.png",
-    src: "Audio/2.flac",
+    img: "src/images/2.png",
+    src: "Audio/2.mp3",
     category: "popular",
   },
   {
     id: 3,
     title: "Runaway",
     artist: "Aurora",
-    img: "src/Images/3.png",
+    img: "src/images/3.png",
     src: "Audio/3.flac",
-    category: "popular",
+    category: "Popular songs",
   },
   {
     id: 4,
     title: "Daylight",
     artist: "David Kushner",
-    img: "src/Images/4.png",
-    src: "Audio/4.flac",
-    category: "popular",
+    img: "src/images/4.png",
+    src: "Audio/4.mp3",
+    category: "Popular songs",
   },
   {
     id: 5,
     title: "Die With A Smile",
     artist: "Bruno Mars, Lady Gaga",
-    img: "src/Images/5.png",
-    src: "Audio/5.flac",
-    category: "popular",
+    img: "src/images/5.png",
+    src: "Audio/5.mp3",
+    category: "Popular songs",
   },
   {
     id: 6,
     title: "Mystical Magical",
     artist: "Benson Boone",
-    img: "src/Images/6.png",
-    src: "Audio/6.flac",
-    category: "popular",
+    img: "src/images/6.png",
+    src: "Audio/6.mp3",
+    category: "Popular songs",
   },
   {
     id: 7,
@@ -289,15 +289,28 @@ function App() {
             <div className="music-section">
                 <h2>Popular songs</h2>
                 <div className="songs">
-                    <div className="music-card">
-                        <img src="images/1.jpg"/>
-                        <div className="music-play-btn"><i id="1" className="playMusic fa-solid fa-circle-play"></i></div>
-                        <div className="img-title">No one Noticed</div>
-                        <div className="img-description">Song by The Marias</div>
+                   {songs
+                .filter((s) => s.category === "Popular songs")
+                .map((song) => (
+                  <div key={song.id} className="music-card">
+                    <img src={song.img} alt="" />
+                    <div className="music-play-btn">
+                      <i
+                        onClick={() => playSong(song.id)}
+                        className={`playMusic fa-solid ${
+                          isPlaying && currentSong === song.id
+                            ? "fa-circle-pause"
+                            : "fa-circle-play"
+                        }`}
+                      />
                     </div>
-                    </div>
-                </div>
+                    <div className="img-title">{song.title}</div>
+                    <div className="img-description">{song.artist}</div>
+                  </div>
+                ))}
             </div>
+          </div>
+          </div>
 
             <div className="music-section">
                 <h2>Recomended songs</h2>
