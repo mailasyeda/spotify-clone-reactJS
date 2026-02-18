@@ -92,7 +92,7 @@ function App() {
               <h2>Popular songs</h2>
               <div className="songs">
                 <div className="music-card">
-                  <img src="images/1.jpg"></img>
+                  <img src="/images/1.jpg"/>
                   <div className="music-play-btn">
                     <i id="1" className="playMusic fa-solid fa-circle-play"></i>
                   </div>
@@ -100,7 +100,7 @@ function App() {
                   <div className="img-description">Song by The Marias</div>
                 </div>
                 <div className="music-card">
-                  <img src="images/2.jpg"></img>
+                  <img src="/images/2.jpg"></img>
                   <div className="music-play-btn">
                     <i id="2" className="playMusic fa-solid fa-circle-play"></i>
                   </div>
@@ -108,7 +108,7 @@ function App() {
                   <div className="img-description">song by The Lord Huron</div>
                 </div>
                 <div className="music-card">
-                  <img src="images/3.jpg"></img>
+                  <img src="/images/3.jpg"></img>
                   <div className="music-play-btn">
                     <i id="3" className="playMusic fa-solid fa-circle-play"></i>
                   </div>
@@ -116,7 +116,7 @@ function App() {
                   <div className="img-description">Song by The Gigi Perez</div>
                 </div>
                 <div className="music-card">
-                  <img src="images/4.jpg"></img>
+                  <img src="/images/4.jpg"></img>
                   <div className="music-play-btn">
                     <i id="4" className="playMusic fa-solid fa-circle-play"></i>
                   </div>
@@ -126,7 +126,7 @@ function App() {
                   </div>
                 </div>
                 <div className="music-card">
-                  <img src="images/5.jpg"></img>
+                  <img src="/images/5.jpg"></img>
                   <div className="music-play-btn">
                     <i id="5" className="playMusic fa-solid fa-circle-play"></i>
                   </div>
@@ -134,7 +134,7 @@ function App() {
                   <div className="img-description">song by The Ruth B</div>
                 </div>
                 <div className="music-card">
-                  <img src="images/6.jpg"></img>
+                  <img src="/images/6.jpg"></img>
                   <div className="music-play-btn">
                     <i id="6" className="playMusic fa-solid fa-circle-play"></i>
                   </div>
@@ -150,7 +150,7 @@ function App() {
               <h2>Recomended songs</h2>
               <div className="songs">
                 <div className="music-card">
-                  <img src="images/7.jpg"></img>
+                  <img src="/images/7.jpg"></img>
                   <div className="music-play-btn">
                     <i id="7" className="playMusic fa-solid fa-circle-play"></i>
                   </div>
@@ -158,7 +158,7 @@ function App() {
                   <div className="img-description">Song by the Weekend</div>
                 </div>
                 <div className="music-card">
-                  <img src="images/8.jpg"></img>
+                  <img src="/images/8.jpg"></img>
                   <div className="music-play-btn">
                     <i id="8" className="playMusic fa-solid fa-circle-play"></i>
                   </div>
@@ -168,7 +168,7 @@ function App() {
                   </div>
                 </div>
                 <div className="music-card">
-                  <img src="images/9.jpg"></img>
+                  <img src="/images/9.jpg"></img>
                   <div className="music-play-btn">
                     <i id="9" className="playMusic fa-solid fa-circle-play"></i>
                   </div>
@@ -176,7 +176,7 @@ function App() {
                   <div className="img-description">Song by The Tom Odell</div>
                 </div>
                 <div className="music-card">
-                  <img src="images/10.jpg"></img>
+                  <img src="/images/10.jpg"></img>
                   <div className="music-play-btn">
                     <i
                       id="10"
@@ -189,7 +189,7 @@ function App() {
                   </div>
                 </div>
                 <div className="music-card">
-                  <img src="images/11.jpg"></img>
+                  <img src="/images/11.jpg"></img>
                   <div className="music-play-btn">
                     <i
                       id="11"
@@ -200,7 +200,7 @@ function App() {
                   <div className="img-description">Song by the Ed Sheeran</div>
                 </div>
                 <div className="music-card">
-                  <img src="images/12.jpg"></img>
+                  <img src="/images/12.jpg"></img>
                   <div className="music-play-btn">
                     <i
                       id="12"
@@ -217,7 +217,7 @@ function App() {
               <h2>Rescently played</h2>
               <div className="songs">
                 <div className="music-card">
-                  <img src="images/13.jpg"></img>
+                  <img src="/images/13.jpg"></img>
                   <div className="music-play-btn">
                     <i
                       id="13"
@@ -230,7 +230,7 @@ function App() {
                   </div>
                 </div>
                 <div className="music-card">
-                  <img src="images/14.jpg"></img>
+                  <img src="/images/14.jpg"></img>
                   <div className="music-play-btn">
                     <i
                       id="14"
@@ -241,7 +241,7 @@ function App() {
                   <div className="img-description">Song by The SABR</div>
                 </div>
                 <div className="music-card">
-                  <img src="images/15.jpg"></img>
+                  <img src="/images/15.jpg"></img>
                   <div className="music-play-btn">
                     <i
                       id="15"
@@ -254,7 +254,7 @@ function App() {
                   </div>
                 </div>
                 <div className="music-card">
-                  <img src="images/16.jpg"></img>
+                  <img src="/images/16.jpg"></img>
                   <div className="music-play-btn">
                     <i
                       id="16"
@@ -267,7 +267,7 @@ function App() {
                   </div>
                 </div>
                 <div className="music-card">
-                  <img src="images/17.jpg"></img>
+                  <img src="/images/17.jpg"></img>
                   <div className="music-play-btn">
                     <i
                       id="17"
@@ -284,7 +284,7 @@ function App() {
 
         <div className="player-bar">
           <div className="now-bar">
-            <img src="Images/1.jpg" alt=""></img>
+            <img src="Images/.jpg" alt=""></img>
             <div>
               <div className="img-title-info">Title 1</div>
               <div className="img-des-info">
