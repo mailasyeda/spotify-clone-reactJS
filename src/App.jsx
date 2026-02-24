@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import "./index.css";
-import "./images"
+import "./images";
 
 const songs = [
   {
